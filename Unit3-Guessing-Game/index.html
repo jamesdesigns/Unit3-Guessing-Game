@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unit 03 - Guessing Game</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,900" rel="stylesheet">
+</head>
+<body onresize="myWindowResize()">
+<div id="wrapper">
+<header>
+<h1 id="company">Guessing Game</h1>
+<h2 id="slogan">Loops</h2>
+</header>
+<main>
+<h1 class="guess">Hi/Lo Guessing Game</h1>
+<h2>What I learned</h2>
+<ul class="objectives">
+	<li>Demonstrate a variable scope</li>
+	<li>Implementing functions</li>
+	<li>Implementing a multi level if-then-else</li>
+	<li>Using innerHTML to provide user feedback</li>
+	<li>Implementing the switch statement</li>
+	<li>Dynamically load a graphic image</li>
+	<li>Create and append an image element</li>
+</ul>
+<hr>
+<h2>Instructions</h2>
+<p>In this game you try to guess a random number between 1 and 15 in as few tries as possible. You will be awarded a ribbon for your skills. Good Luck to you! If you would like to play again, refresh the page.</p>
+
+<div id="game">
+	
+		<div class="title">
+			<h3>Play</h3>
+			<input id="number" type="number" name="quantity" min="1" max="15" value="">
+			<br>
+			<!-- <input type="submit" class="button">  -->
+			<button onclick="guessMyNumber()">Guess</button>
+		</div>
+
+		<div class="title">
+			<h3>Trys</h3>
+			<p id="attempts"></p>
+		</div>
+
+		<div class="title">
+			<h3>Feedback</h3>
+			<p id="suggestions"></p>
+		</div>
+
+		<div class="award">
+			<h3>Award</h3>
+			<img id="ribbon">
+		</div>
+	
+</div>	
+
+</main>
+<footer>
+<p>Assignment for DGM2760 by James Hooper </p>
+</footer>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>

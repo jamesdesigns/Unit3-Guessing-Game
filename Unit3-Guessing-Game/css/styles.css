@@ -1,0 +1,147 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #;
+}
+
+#wrapper {
+	width:1024px;
+	margin: 0 auto;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+h1, h2, h3, h4, h5 {
+	margin-left: 2%;
+	color: #606060;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+}
+
+h1 {
+	font-size: 295%;
+}
+
+h2 {
+	font-size:170%;
+	color:#00ccff;
+}
+
+p {
+	margin-left: 2%;
+}
+
+hr {
+	border: 1px dotted #ccc;
+}
+
+header {
+	height: 213px;
+	background-image: url("../game-BG.jpg");
+	background-repeat: no-repeat;
+	border-bottom: 4px solid #00ccff;
+}
+
+input[type=number], select {
+    width: 100px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 120%;
+}
+
+button {
+    width: 100px;
+    background-color: #0066cc;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 110%;
+}
+
+/*
+input[type=submit] {
+    width: 100px;
+    background-color: #0066cc;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 110%;
+}
+*/
+
+.guess {
+	font-size: 190%;
+	font-weight: 500;
+	color:#000;
+}
+
+#company {
+	color:#fff;
+	text-shadow: 3px 3px #000;
+	margin-top: 15px;
+	padding-top: 10px;
+}
+
+#slogan {
+	color:#ccc;
+	text-shadow: 2px 2px #000;
+	margin-top:-30px;
+}
+
+#pageName  {
+	color:#6d3c37;
+}
+
+
+#game {
+	border-radius: 25px;
+	border: 2px solid #00ccff;
+	padding: 20px;
+	margin-left: 2%;
+	width: 900px;
+	height: 270px;
+}
+
+#attempts {
+	font-size: 250%;
+	margin-top: -6px;
+}
+
+.title {
+	width: 170px;
+	float: left;
+}
+
+.award {
+	width: 350px;
+	float: left;
+}
+
+ul {
+    list-style-type: circle;
+    color:#6d3c37;
+}
+
+footer {
+	background-color: #ccc;
+	color: #000;
+	font-size: 85%;
+	height: 50px;
+	text-align: center;
+}
+
+footer p {
+	padding-top: 15px;
+}
